@@ -22,6 +22,7 @@
 /* Farben: #2B2C2E /  #9FA2A7 / #27282A /  #848689 / #3D3E41 / #fff */
 
 body {
+    overflow-x: hidden;
     margin: 0 auto;
     max-width: 1440px;
 }
@@ -89,7 +90,7 @@ nav>a {
     border-radius: 5px;
 }
 .btn:hover {
-    transition: 0.5s;
+    transition: 0.4 s;
     color: white;
     background-color: black;
     border: 2px solid white;
@@ -160,7 +161,7 @@ h1 {
 }
 
 .article_img>img {
-    width: 180%;
+    width: 100%;
 } 
 
 .second_section {
@@ -168,7 +169,7 @@ h1 {
 }
 
 .second_section_div {
-    padding-left: 31vh;
+    width: 49%;
 }
 
 .second_section_div>h3 {
