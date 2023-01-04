@@ -11,10 +11,11 @@
     <!-- ************* Hier beginnt der header ************* -->
     <header> <!-- Flex // space around -->
         <nav> <!-- padding -->
-            <a href="./assets/img/giphy.gif"><li>Home</li></a>
-            <a href="./assets/img/kenny.gif"><li>About</li></a>
-            <a href="./assets/img/game.gif"><li>Contact</li></a>
-            <a href="./assets/img/balls.gif"><li>#Hacks</li></a>
+            <a href="./assets/img/giphy.gif"><p class="navPTag">Home</p></a>
+            <a href="./assets/img/kenny.gif"><p class="navPTag">About</p></a>
+            <a href="./assets/img/game.gif"><p class="navPTag">Contact</p></a>
+            <a href="./assets/img/balls.gif"><p class="navPTag">#Hacks</p></a>
+            
         </nav>
         <div class="mobil_menu">
             <span></span>
@@ -22,6 +23,7 @@
             <span></span>
         </div>
         <h2>Design Critique</h2>
+        <button onclick={click} id="myButton">⚫️</button>
         <button class="btn">Get started</button>
     </header>
 
@@ -83,7 +85,7 @@
             </article>
             
             <section class="article_five"> <!--  Section "Any questions mit der Border: line "  -->
-                <div class="article_line"></div>
+                <div id="article_line"></div>
                 <h3>Have any questions?</h3>
             </section>
         </section>
@@ -95,5 +97,6 @@
             </article>
         </footer>
     </main>
+    <script src="assets/js/main.js"></script>
 </body>
 </html>
